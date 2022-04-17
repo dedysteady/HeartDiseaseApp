@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Nerv-IO</string>
+    <string name="back_dashboard"><u>Back to Main Menu</u>.</string>
+    <string name="question_1">1. Nama Lengkap</string>
+    <string name="question_2">2. Umur</string>
+    <string name="question_3">3. Jenis Kelamin</string>
+    <string name="question_4">4. Jenis Nyeri Dada</string>
+    <string name="question_5">5. Tekanan Darah</string>
+    <string name="question_6">6. Kolesterol</string>
+    <string name="question_7">7. Gula Darah</string>
+    <string name="question_8">8. Elektrokardiogram</string>
+    <string name="question_9">9. Detak Jantung Maksimum</string>
+    <string name="question_10">10. Exercise Induced Angina</string>
+    <string name="question_11">11. Depresi</string>
+    <string name="question_12">12. Kemiringan Segmen</string>
+    <string name="question_13">13. Jumlah Pembuluh Darah utama yang diwarnai dengan fluroskopi</string>
+    <string name="question_14">14. Nilai Thalassemia</string>
+    <string name="finish">Finish</string>
+    <string name="phone_number_s">Nomor Telepon : %s</string>
+    <string name="submit">Submit</string>
+    <string name="Name">Nama : %s</string>
+    <string name="age">Umur : %s</string>
+    <string name="gender">Jenis Kelamin : %s</string>
+    <string name="desc_gula_darah"><![CDATA[(120>)-1 = Benar; (120<)-0 = Salah]]></string>
+</resources>

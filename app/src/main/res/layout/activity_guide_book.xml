@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/blue_200"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".view.GuideBookActivity">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logonervio"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nervio adalah aplikasi yang berfungsi untuk mendeteksi penyakit jantung. sebelum melakukan tes, Anda harus membaca instruksi di bawah ini:"
+            android:textColor="@color/dark_blue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/ptsanbold"
+            android:text="1. Umur"
+            android:textColor="@color/dark_blue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/ptsansregular"
+            android:text="Umur orang tersebut dalam tahun"
+            android:textColor="@color/dark_blue"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/ptsanbold"
+            android:text="2. Jenis Kelamin"
+            android:textColor="@color/dark_blue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/ptsansregular"
+            android:text="Jenis kelamin orang tersebut (laki-laki atau perempuan)"
+            android:textColor="@color/dark_blue"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/ptsanbold"
+            android:text="3. Jenis nyeri dada"
+            android:textColor="@color/dark_blue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/ptsansregular"
+            android:text="nyeri dada yang disebabkan oleh penyumbatan pada pembuluh darah yang menuju ke jantung \n— Nilai 0: asimtomatik
+\n— Nilai 1: angina atipikal
+\n— Nilai 2: nyeri non-angina
+\n— Nilai 3: angina tipikal"
+            android:textColor="@color/dark_blue"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/ptsanbold"
+            android:text="4. Tekanan Darah"
+            android:textColor="@color/dark_blue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/ptsansregular"
+            android:text=" Tekanan darah orang tersebut (mmHg saat masuk ke rumah sakit)"
+            android:textColor="@color/dark_blue"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/ptsanbold"
+            android:text="5. Kolesterol"
+            android:textColor="@color/dark_blue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/ptsansregular"
+            android:text="Pengukuran kolesterol seseorang dalam mg/dl"
+            android:textColor="@color/dark_blue"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/ptsanbold"
+            android:text="6. Gula Darah"
+            android:textColor="@color/dark_blue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/ptsansregular"
+            android:text=" Hasil Gula darah setelah orang puasa selama 8 jam(> 120 mg/dl, 1 = benar; 0 = salah)"
+            android:textColor="@color/dark_blue"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/ptsanbold"
+            android:text="7. Resting electrocardiography"
+            android:textColor="@color/dark_blue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/ptsansregular"
+            android:text=" — Nilai 0: Normal
+\n— Nilai 1: memiliki kelainan gelombang ST-T (inversi gelombang T dan/atau elevasi atau depresi ST > 0,05 mV)
+\n— Nilai 2: menunjukkan kemungkinan atau pasti hipertrofi ventrikel kiri menurut kriteria Estes"
+            android:textColor="@color/dark_blue"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/ptsanbold"
+            android:text="8. Detak jantung maksimum"
+            android:textColor="@color/dark_blue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/ptsansregular"
+            android:text=" Detak jantung maksimum yang dicapai orang tersebut"
+            android:textColor="@color/dark_blue"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/ptsanbold"
+            android:text="9. Angina yang diinduksi oleh olahraga"
+            android:textColor="@color/dark_blue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/ptsansregular"
+            android:text="Angina stabil biasanya dipicu oleh aktivitas fisik. Saat Anda menaiki tangga, berolahraga atau berjalan, jantung Anda menuntut lebih banyak darah, tetapi arteri yang menyempit memperlambat aliran darah"
+            android:textColor="@color/dark_blue"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/ptsanbold"
+            android:text="10. Depresi"
+            android:textColor="@color/dark_blue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/ptsansregular"
+            android:text="Depresi yang diinduksi oleh olahraga relatif terhadap istirahat ('ST' berhubungan dengan posisi pada plot EKG)"
+            android:textColor="@color/dark_blue"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/ptsanbold"
+            android:text="11. Kemiringan segmen ST puncak"
+            android:textColor="@color/dark_blue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/ptsansregular"
+            android:text=" Kemiringan segmen ST puncak \n— 0: miring ke bawah; \n— 1: datar; \n— 2: miring"
+            android:textColor="@color/dark_blue"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/ptsanbold"
+            android:text="12. Jumlah pembuluh darah utama yang diwarnai dengan fluroskopi"
+            android:textColor="@color/dark_blue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/ptsansregular"
+            android:text="Angka nya  (0–3)"
+            android:textColor="@color/dark_blue"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/ptsanbold"
+            android:text="13. Thal value"
+            android:textColor="@color/dark_blue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/ptsansregular"
+            android:text=" Kelainan darah yang disebut thalassemia \nNilai 0: NULL (dijatuhkan dari dataset sebelumnya
+\nNilai 1: cacat tetap (tidak ada aliran darah di beberapa bagian jantung)
+\nNilai 2: aliran darah normal
+\nNilai 3: cacat reversibel (aliran darah diamati tetapi tidak"
+            android:textColor="@color/dark_blue"
+            android:textSize="15sp" />
+    </LinearLayout>
+</ScrollView>
