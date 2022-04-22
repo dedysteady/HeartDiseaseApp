@@ -6,9 +6,10 @@ In this event, it is so different with #JuaraGCP because there's an application 
 You can check my Google Developer Profile on https://g.dev/dedysteady
 
 # Overview
+Name : NervIO - Early Heart Disease App <br>
 Programming Language : Kotlin <br>
 Tools : Android Studio <br>
-Development : 2 Months <br>
+Development : 1 Months <br>
 Download App : Check Release -> https://github.com/dedysteady/HeartDiseaseApp/releases/tag/v1.0 <br>
 
 https://user-images.githubusercontent.com/45990233/164728771-52993280-532f-44b7-b356-4348465d2a3c.mp4
