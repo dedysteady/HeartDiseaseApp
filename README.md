@@ -1,5 +1,11 @@
 # #JuaraAndroid
 
+![Downloads](https://img.shields.io/github/downloads/dedysteady/HeartDiseaseApp/total)
+![HitCount](https://hits.dwyl.com/dedysteady/HeartDiseaseApp.svg?style=flat&show=unique)
+![Issues](https://img.shields.io/github/issues/dedysteady/HeartDiseaseApp)
+![Forks](https://img.shields.io/github/forks/dedysteady/HeartDiseaseApp)
+![Stars](https://img.shields.io/github/stars/dedysteady/HeartDiseaseApp)
+
 Thanks for Google Developer Indonesia for #JuaraAndroid event Season 1. There are so many knowledge that I got. <br>
 In this event, it is so different with #JuaraGCP because there's an application submission. So, you have to submit a final project.
 
